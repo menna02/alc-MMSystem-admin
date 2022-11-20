@@ -142,6 +142,7 @@
     <string name="select_program">Select Program</string>
     <string name="certificate_image">certificate_image</string>
     <string name="generate">Generate</string>
+    <string name="delete">Delete</string>
 
 
 </resources>

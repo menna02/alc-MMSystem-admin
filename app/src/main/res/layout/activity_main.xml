@@ -12,7 +12,7 @@
 
     <!-- Certificates -->
     <TextView
-        android:id="@+id/certificate"
+        android:id="@+id/tvCertificate"
         android:layout_width="91dp"
         android:layout_height="30dp"
         android:layout_alignParentStart="true"
@@ -35,7 +35,7 @@
         android:layout_marginStart="3dp"
         android:layout_marginTop="67dp"
         android:contentDescription="@string/left_arrows"
-        app:layout_constraintEnd_toStartOf="@+id/certificate"
+        app:layout_constraintEnd_toStartOf="@+id/tvCertificate"
         app:layout_constraintHorizontal_bias="0.481"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -117,7 +117,7 @@
         app:layout_constraintTop_toTopOf="@+id/view1" />
 
     <com.google.android.material.button.MaterialButton
-        android:id="@+id/button"
+        android:id="@+id/buttonView1"
         android:layout_width="59dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="248dp"
@@ -225,7 +225,7 @@
         app:layout_constraintTop_toTopOf="@+id/view2" />
 
     <com.google.android.material.button.MaterialButton
-        android:id="@+id/button2"
+        android:id="@+id/buttonView2"
         android:layout_width="59dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="248dp"
@@ -253,6 +253,7 @@
         android:layout_marginEnd="20dp"
         android:clipToOutline="true"
         android:visibility="visible"
+        android:background="@drawable/dropdowns_d"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -314,12 +315,14 @@
         app:layout_constraintVertical_bias="0.0" />
 
     <com.google.android.material.button.MaterialButton
+        android:id="@+id/buttonGenerateNewCertificate"
         android:layout_width="320dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="20dp"
 
+        android:layout_marginStart="20dp"
         android:layout_marginTop="660dp"
         android:layout_marginEnd="20dp"
+        android:layout_marginBottom="57dp"
         android:backgroundTint="@color/mms_pry_2"
         android:fontFamily="@font/mukta"
         android:lineHeight="29.92sp"
