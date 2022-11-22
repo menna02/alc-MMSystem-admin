@@ -115,6 +115,32 @@
         <item name="android:textColor">#808080</item>
 
     </style>
+    <style name="pending_app">
+
+        <item name="android:textSize">
+            18sp
+        </item>
+
+        <item name="android:textColor">
+            #333333
+        </item>
+
+    </style>
+    <style name="certificate1">
+
+        <item name="android:textSize">18sp</item>
+
+        <item name="android:textColor">#333333</item>
+
+    </style>
+    <style name="franka_kebe1">
+
+        <item name="android:textSize">16sp</item>
+
+        <item name="android:textColor">#333333</item>
+
+    </style>
+
 
 
 
@@ -145,34 +171,15 @@
     <string name="certificate_image">certificate_image</string>
     <string name="generate">Generate</string>
     <string name="delete">Delete</string>
-
-    <style name="certificate1">
-
-        <item name="android:textSize">18sp</item>
-
-        <item name="android:textColor">#333333</item>
-
-    </style>
-
-
-
     <string name="certificate1">Certificate Generated Successfully!</string>
     <string name="done">Done</string>
-
-    <style name="franka_kebe1">
-
-        <item name="android:textSize">16sp</item>
-
-        <item name="android:textColor">#333333</item>
-
-    </style>
-
-
-
     <string name="franka_kebe1">Franka Kebede\nGADS CLOUD 2022 - COMPL...</string>
+    <string name="pending_app">Pending Approval</string>
 
 
 
 
->>>>>>> Stashed changes
+
+
+    >>>>>>> Stashed changes
 </resources>
