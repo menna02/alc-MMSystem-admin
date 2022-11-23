@@ -1,7 +1,6 @@
 <resources>
     <string name="app_name">alc-MMSystem-admin</string>
-<<<<<<< Updated upstream
-=======
+
 
 
     <style name="certificate">
@@ -147,6 +146,7 @@
     <string name="generate">Generate</string>
     <string name="delete">Delete</string>
 
+
     <style name="certificate1">
 
         <item name="android:textSize">18sp</item>
@@ -160,20 +160,5 @@
     <string name="certificate1">Certificate Generated Successfully!</string>
     <string name="done">Done</string>
 
-    <style name="franka_kebe1">
 
-        <item name="android:textSize">16sp</item>
-
-        <item name="android:textColor">#333333</item>
-
-    </style>
-
-
-
-    <string name="franka_kebe1">Franka Kebede\nGADS CLOUD 2022 - COMPL...</string>
-
-
-
-
->>>>>>> Stashed changes
 </resources>
