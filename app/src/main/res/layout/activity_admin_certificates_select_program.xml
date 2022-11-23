@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Select Program -->
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="67dp"
+        android:layout_marginEnd="3dp"
+        app:layout_constraintEnd_toStartOf="@+id/select_prog"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/vector"
+        android:contentDescription="@string/prof_pic" />
+
+    <TextView
+        android:id="@+id/select_prog"
+        android:layout_width="121dp"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="49dp"
+        android:layout_marginTop="59dp"
+        android:layout_marginEnd="190dp"
+        android:fontFamily="@font/mukta"
+        android:gravity="top"
+        android:text="@string/select_prog"
+        android:textAppearance="@style/select_prog"
+        android:textFontWeight="700"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Group 51 -->
+    <View
+        android:id="@+id/group_51"
+        android:layout_width="320dp"
+        android:layout_height="82dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="109dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/dropdowns_d"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginEnd="267dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ellipse_1"
+        android:contentDescription="@string/profile_img" />
+
+    <!-- Franka Kebede -->
+    <TextView
+        android:id="@+id/franka_kebe"
+        android:layout_width="110dp"
+        android:layout_height="25dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="104dp"
+        android:layout_marginTop="117dp"
+        android:layout_marginEnd="146dp"
+        android:fontFamily="@font/mukta"
+        android:gravity="top"
+        android:text="@string/franka_kebe"
+        android:textAppearance="@style/franka_kebe"
+        android:textFontWeight="600"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Program Assistant, Andela, She/her -->
+
+    <!-- Group 48 -->
+
+
+    <!-- PROGRAM ASST. -->
+
+    <TextView
+        android:id="@+id/program_ass"
+        android:layout_width="wrap_content"
+        android:layout_height="17dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="104dp"
+        android:layout_marginTop="140dp"
+        android:layout_marginEnd="109dp"
+        android:fontFamily="@font/mukta"
+        android:gravity="top"
+        android:lineHeight="17sp"
+        android:text="@string/program_ass"
+        android:textAppearance="@style/program_ass"
+        android:textFontWeight="400"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.764"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TextContrastCheck,TextContrastCheck" />
+
+    <View
+        android:id="@+id/group_48"
+        android:layout_width="83dp"
+        android:layout_height="18dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="105dp"
+        android:layout_marginTop="159dp"
+        android:layout_marginEnd="172dp"
+        android:background="@drawable/rectangle_11"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/program_ass_caps"
+        android:layout_width="wrap_content"
+        android:layout_height="17dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="6dp"
+        android:fontFamily="@font/mukta"
+        android:gravity="top"
+        android:text="@string/program_ass_caps"
+        android:textAllCaps="true"
+        android:textAppearance="@style/program_ass_caps"
+        android:textColor="@color/mms_pry_2"
+        android:textFontWeight="400"
+        android:textSize="11sp"
+        app:layout_constraintEnd_toEndOf="@+id/group_48"
+        app:layout_constraintStart_toStartOf="@+id/group_48"
+        app:layout_constraintTop_toTopOf="@id/group_48" />
+
+    <View
+        android:id="@+id/group_49"
+        android:layout_width="83dp"
+        android:layout_height="18dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="159dp"
+        android:layout_marginEnd="98dp"
+        android:background="@drawable/rectangle_11"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.906"
+        app:layout_constraintStart_toStartOf="@id/group_48"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- MENTOR-GAD -->
+    <TextView
+        android:id="@+id/mentor_gad"
+        android:layout_width="wrap_content"
+        android:layout_height="17dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="4dp"
+        android:gravity="top"
+        android:text="@string/mentor_gad"
+        android:textAllCaps="true"
+        android:textAppearance="@style/mentor_gad"
+        app:layout_constraintEnd_toEndOf="@+id/group_49"
+        app:layout_constraintStart_toStartOf="@+id/group_49"
+        app:layout_constraintTop_toTopOf="@id/group_49" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/outlinedTextField"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense.ExposedDropdownMenu"
+        android:layout_width="320dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="206dp"
+        android:layout_marginEnd="20dp"
+        android:hint="@string/select_program"
+        android:textColorHint="#808080"
+        app:boxBackgroundColor="@null"
+        app:boxBackgroundMode="outline"
+        app:boxStrokeColor="#cccccc"
+        app:boxStrokeWidth="1dp"
+        app:hintTextAppearance="@style/select_program"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <AutoCompleteTextView
+            android:id="@+id/auto"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/mukta" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="268dp"
+        android:layout_marginEnd="20dp"
+        android:contentDescription="@string/certificate_image"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ace_1" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/buttonGenerate"
+        android:layout_width="321dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="51dp"
+        android:backgroundTint="@color/mms_pry_2"
+        android:fontFamily="@font/mukta"
+        android:padding="4dp"
+        android:text="@string/generate"
+        android:textAllCaps="false"
+        android:textFontWeight="600"
+        android:textSize="18sp"
+        app:cornerRadius="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView8" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
