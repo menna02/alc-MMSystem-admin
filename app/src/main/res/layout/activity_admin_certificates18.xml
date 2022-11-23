@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="67dp"
+        android:layout_marginEnd="319dp"
+        android:contentDescription="@string/left_arrows"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/vector" />
+
+    <!-- Franka Kebede -->
+    <TextView
+        android:id="@+id/franka_kebe"
+        android:layout_width="117dp"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="59dp"
+        android:layout_marginEnd="193dp"
+        android:fontFamily="@font/mukta"
+        android:gravity="top"
+        android:text="@string/franka_kebe"
+        android:textAppearance="@style/franka_kebe"
+        android:textFontWeight="700"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Group 51 -->
+    <View
+        android:id="@+id/group_51"
+        android:layout_width="320dp"
+        android:layout_height="82dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="104dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/dropdowns_d"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginEnd="247dp"
+        android:layout_marginBottom="11dp"
+        android:contentDescription="@string/certificate_image"
+        app:layout_constraintBottom_toBottomOf="@+id/group_51"
+        app:layout_constraintEnd_toEndOf="@+id/group_51"
+        app:layout_constraintStart_toStartOf="@+id/group_51"
+        app:layout_constraintTop_toTopOf="@+id/group_51"
+        app:srcCompat="@drawable/ellipse_1" />
+
+    <!-- Franka Kebede -->
+    <TextView
+        android:id="@+id/franka_kebe1"
+        android:layout_width="110dp"
+        android:layout_height="20dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="104dp"
+        android:layout_marginTop="112dp"
+        android:layout_marginEnd="146dp"
+        android:fontFamily="@font/mukta"
+        android:gravity="top"
+        android:lineSpacingExtra="-7sp"
+        android:text="@string/franka_kebe"
+        android:textAppearance="@style/franka_kebe"
+        android:textFontWeight="700"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Program Assistant, Andela, She/her -->
+
+    <!-- Group 48 -->
+    <TextView
+        android:id="@+id/program_ass"
+        android:layout_width="wrap_content"
+        android:layout_height="17dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="104dp"
+        android:layout_marginTop="132dp"
+        android:layout_marginEnd="109dp"
+        android:fontFamily="@font/mukta"
+        android:gravity="top"
+        android:text="@string/program_ass"
+        android:textAppearance="@style/program_ass"
+        android:textFontWeight="400"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.794"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TextContrastCheck" />
+
+    <View
+        android:id="@+id/group_48"
+        android:layout_width="83dp"
+        android:layout_height="18dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="105dp"
+        android:layout_marginTop="154dp"
+        android:layout_marginEnd="172dp"
+        android:background="@drawable/rectangle_11"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Group 49 -->
+    <View
+        android:id="@+id/group_49"
+        android:layout_width="68dp"
+        android:layout_height="18dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="194dp"
+        android:layout_marginTop="154dp"
+        android:layout_marginEnd="98dp"
+        android:background="@drawable/rectangle_11"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- PROGRAM ASST. -->
+    <TextView
+        android:id="@+id/bold_program_ass"
+        android:layout_width="wrap_content"
+        android:layout_height="17dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="8dp"
+        android:fontFamily="@font/mukta"
+        android:gravity="top"
+        android:text="@string/program_ass_caps"
+        android:textAllCaps="true"
+        android:textAppearance="@style/program_ass_caps"
+        android:textFontWeight="400"
+        app:layout_constraintEnd_toEndOf="@+id/group_48"
+        app:layout_constraintStart_toStartOf="@id/group_48"
+        app:layout_constraintTop_toTopOf="@id/group_48"
+        tools:layout_editor_absoluteY="154dp" />
+
+    <!-- MENTOR-GAD -->
+    <TextView
+        android:id="@+id/mentor_gad"
+        android:layout_width="wrap_content"
+        android:layout_height="17dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:gravity="top"
+        android:text="@string/mentor_gad"
+        android:textAllCaps="true"
+        android:textAppearance="@style/mentor_gad"
+        app:layout_constraintEnd_toEndOf="@+id/group_49"
+        app:layout_constraintTop_toTopOf="@id/group_49"
+        app:layout_constraintStart_toStartOf="@id/group_49"
+        tools:layout_editor_absoluteY="151dp" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="198dp"
+        android:layout_marginEnd="20dp"
+        android:contentDescription="@string/profile_img"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ace_1" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/buttonDelete"
+        android:layout_width="321dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="699dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="30dp"
+        android:backgroundTint="@color/mms_pry_2"
+        android:fontFamily="@font/mukta"
+        android:padding="5dp"
+        android:text="@string/delete"
+        android:textAllCaps="false"
+        android:textFontWeight="600"
+        android:textSize="18sp"
+        app:cornerRadius="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.533"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
