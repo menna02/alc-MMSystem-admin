@@ -171,15 +171,5 @@
     <string name="certificate_image">certificate_image</string>
     <string name="generate">Generate</string>
     <string name="delete">Delete</string>
-    <string name="certificate1">Certificate Generated Successfully!</string>
-    <string name="done">Done</string>
-    <string name="franka_kebe1">Franka Kebede\nGADS CLOUD 2022 - COMPL...</string>
-    <string name="pending_app">Pending Approval</string>
 
-
-
-
-
-
-    >>>>>>> Stashed changes
 </resources>
