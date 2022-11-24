@@ -36,13 +36,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-<<<<<<< Updated upstream
-=======
-
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
->>>>>>> Stashed changes
+
     </application>
 
 </manifest>
